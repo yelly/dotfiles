@@ -99,7 +99,6 @@ link_file () {
     ln -s "$1" "$2"
     success "linked $1 to $2"
   fi
-}
 
 install_dotfiles () {
   info 'installing dotfiles'
