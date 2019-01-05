@@ -114,7 +114,7 @@ install_dotfiles () {
 }
 
 # link ~/.dotfiles
-ln -sF ~/.dotfiles "$HOME"
+ln -sF "$DOTFILES_ROOT" ~/.dotfiles
 install_dotfiles
 
 echo ''
